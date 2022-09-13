@@ -1,0 +1,56 @@
+
+Multi language create in magento 2 
+
+Step 1)
+ -- Main Website
+          -- Main webite store
+                  --  create Store view(English)
+                  --  chinese 
+                  --  franch
+                  --  Soudi Arabia
+
+
+step 2) Store > configuration >  General > General > Locale Options 
+       
+       set Locale  --- chinese or french or any thing set
+
+step 3)  check ---  we can check with view source in frontend.
+
+
+step 4) set file in folder -- app/design/frontend/V4U/sampletheme/i18n
+
+        Like -- french -- fr_BE.csv
+
+step 5) content > Configuration > design 
+     
+     Theme must be select on each store view for laugage  
+
+
+
+How to create cron
+create coupan code
+what is virtual type.
+difference b/w type and virtual type
+custom command,
+create Payment Method
+create shipping method 
+Rest Api
+Graph Ql
+Migration in m1 to m2
+Override class in m2
+Create Custom product type.
+use of system.xml file
+security patch have apply in m2
+1) div ki class update with xml file 
+2) shipping fee banane ki kon si file 
+3) section.xml fieldset.xml
+4) use whitelist json file.
+5) command line set base url -- php bin/magento setup-store:config:base-url=
+
+file Db_schema.xml use and 
+Repository and model class difference.
+object manager why not use directly in module 
+what is disadvantage of override of class by preference.
+what is resource model and use of this.
+plugin which will load first when same work.
+diff block and referenceblock 
